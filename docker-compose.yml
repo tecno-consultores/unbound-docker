@@ -14,6 +14,7 @@ services:
       - TZ=America/Caracas
     volumes:
       - ./unbound.conf:/etc/unbound/unbound.conf:ro
+      - ./root.hints:/etc/unbound/root.hints:ro
     healthcheck:
       test: ["CMD", "dig", "-p", "53", "dnssec.works", "@127.0.0.1"]
       interval: 30s
