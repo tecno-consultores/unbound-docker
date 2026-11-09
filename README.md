@@ -51,3 +51,6 @@ También puedes verificar que DNSSEC esté funcionando correctamente consultando
 ```bash
 dig @127.0.0.1 sigok.verteiltesysteme.net
 ```
+
+
+Copyright (C) 2026 Jesus Palencia <sinfallas@gmail.com> (Creado en Tecno Consultores)
